@@ -1,0 +1,264 @@
+.hole_div{
+  background-color: #F8F8F8;
+  overflow: hidden;
+  height: auto;
+  width: 100%; 
+  padding: 20px;
+  font-family: Verdana, sans-serif;
+  } 
+  
+.sidebar{
+  height: auto;
+  width: 4%;
+  background-color: #a95bf1;
+  border-radius: 5px;
+  text-align: center;
+  color: whitesmoke;
+}
+ .sidebaricon{
+  text-decoration: none;
+  color: whitesmoke;
+ }
+
+ .sidebaricon:hover{
+       color: black;
+ }
+.contentbar{
+  height: auto;
+  width: 96%;
+ 
+}
+
+.content_headder{
+  display: inline-flex;
+ width: 100%;
+ height: auto;
+}
+ .search_icon{
+ position: relative;
+} 
+.BsSearch{
+   position: relative;
+   left: 30px;
+} 
+.search_icon input {
+  outline: none;
+  text-indent: 30px;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+}
+.noticf_icon{
+ position: absolute;
+ right: 10px;
+ height: 25px;
+ width: 25px;
+ border-radius: 20px;
+ background-color: #a95bf1;
+ text-align: center;
+}
+
+.Summaryheadder{
+  width: 100%;
+  height: auto;
+  font-size: 13px;
+  margin: 20px 0 0 25px;
+}
+
+.Summarydiv{
+   display: flex; 
+  width: 100%;
+  height: auto;
+ 
+}
+
+.Summarydivlhs{
+   height: auto;
+   position: relative;
+}
+
+.Summarydivlhs_circle1{
+  border: 1px solid gainsboro;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+}
+.Summarydivlhs_smline1{
+  border: 1px solid gainsboro;
+  width: 50px;
+  height: 0;  
+  position: absolute;
+  left: 40px;
+  top: 45px;
+}
+
+.Summarydivlhs_lgline1{
+    border: 1px solid gainsboro;
+    width: 0;
+    height: 200px;
+    position: absolute;
+    left: 34px;
+    top: 49px;
+}
+
+
+.Summarydivlhs_box1{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d6b6f5;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 90px;
+  top: 32px;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.Summarydivlhs_circle2{
+  border: 1px solid gainsboro;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30px;
+  top: 249px;
+}
+.Summarydivlhs_smline2{
+  border: 1px solid gainsboro;
+  width: 50px;
+  height: 0;  
+  position: absolute;
+  left: 40px;
+  top: 254px;
+}
+
+.Summarydivlhs_lgline2{
+    border: 1px solid gainsboro;
+    width: 0;
+    height: 200px;
+    position: absolute;
+    left: 34px;
+    top: 258px;
+}
+
+
+.Summarydivlhs_box2{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d6b6f5;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 90px;
+  top: 243px;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.Summarydivlhs_circle3{
+  border: 1px solid gainsboro;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30px;
+  top: 458px;
+}
+.Summarydivlhs_smline3{
+  border: 1px solid gainsboro;
+  width: 50px;
+  height: 0;  
+  position: absolute;
+  left: 40px;
+  top: 463px;
+}
+
+.Summarydivlhs_lgline3{
+    border: 1px solid gainsboro;
+    width: 0;
+    height: 202px;
+    position: absolute;
+    left: 35px;
+    top: 467px;
+}
+
+
+.Summarydivlhs_box3{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d6b6f5;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 90px;
+  top: 451px;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.Summarydivlhs_circle4{
+  border: 1px solid gainsboro;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30px;
+  top: 668.5px;
+}
+.Summarydivlhs_smline4{
+  border: 1px solid gainsboro;
+  width: 50px;
+  height: 0;  
+  position: absolute;
+  left: 39px;
+  top: 673px;
+}
+
+.Summarydivlhs_box4{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d6b6f5;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 88px;
+  top: 660px;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+}
+.Summarydivrhs{ 
+height: auto;
+}
+
+.formdiv{
+  display: flex;
+}
+.formdiv div{
+   margin-left: 20px;
+}
+
+.formdiv div input{
+    height: 20px; 
+}
+
+.tablediv table,th,td,tr{
+  border: 1px solid gainsboro;
+  padding: 2px;
+  width: 25%;
+}
+.tablediv table th{
+  background-color: #e9e1f1;
+}
+.tablediv table select{ 
+  outline: none;
+}
+.tablediv table{
+  width: 95%;
+}
